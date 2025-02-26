@@ -87,6 +87,7 @@ if (EMSCRIPTEN)
 else()
     add_subdirectory(ggwave-to-file)
     add_subdirectory(ggwave-from-file)
+    add_subdirectory(ggwave-from-pipe) # pipe
 
     add_subdirectory(arduino-rx)
     add_subdirectory(arduino-tx)
